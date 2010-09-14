@@ -41,7 +41,7 @@ nmap <D-0> g^
 set linespace=4
 
 "disable visual bell
-set visualbell t_vb=
+""set visualbell t_vb=
 
 "try to make possible to navigate within lines of wrapped lines
 nmap <Down> gj
@@ -395,3 +395,6 @@ nmap <Tab> gt
 nmap <S-Tab> gT
 
 let ScreenShot = {'Icon':0, 'Credits':0, 'force_background':'#FFFFFF'} 
+
+" Set the leader:
+let mapleader = ","
